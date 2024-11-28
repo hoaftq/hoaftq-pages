@@ -3,7 +3,8 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 module.exports = withModuleFederationPlugin({
 
   remotes: {
-    "tic-tac-toe-game": "http://localhost:8082/remoteEntry.js",    
+    'game-tic-tac-toe-remote': 'http://localhost:8082/remoteEntry.js',
+    'game-2048-remote': 'http://localhost:8083/remoteEntry.js'
   },
 
   shared: {
