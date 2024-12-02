@@ -1,5 +1,9 @@
-<div class="header">
-    <a routerLink="/tic-tac-toe">Tic Tac Toe</a>
-    <a routerLink="/game-2048">Game 2048</a>
+<div class="navbar bg-slate-100 text-rose-950 mb-5">
+    <div class="navbar-start">
+        <ul class="menu menu-horizontal">
+            <li><a routerLink="/tic-tac-toe" routerLinkActive="bg-slate-300">Tic Tac Toe</a></li>
+            <li class="pl-2"><a routerLink="/game-2048" routerLinkActive="bg-slate-300">Game 2048</a></li>
+        </ul>
+    </div>
 </div>
 <router-outlet></router-outlet>
