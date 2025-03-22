@@ -5,7 +5,6 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   templateUrl: './game-2048.component.html',
 })
 export class Game2048Component implements OnInit {
-
   @ViewChild('container') container?: ElementRef<HTMLDivElement>;
 
   ngOnInit(): void {
