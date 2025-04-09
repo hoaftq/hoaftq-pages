@@ -12,6 +12,6 @@ export class Game2048Component implements OnInit {
       const element = document.createElement(m.elementName);
       element.style.height = '800px';
       this.container?.nativeElement.replaceChildren(element);
-    })
+    });
   }
 }

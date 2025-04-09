@@ -12,6 +12,6 @@ export class TicTacToeComponent implements OnInit{
     import('game-tic-tac-toe-remote/tictactoe').then(m => {
       const element = document.createElement(m.elementName);
       this.container?.nativeElement.replaceChildren(element);
-    })
+    });
   }
 }
