@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TicTacToeComponent } from './wrappers/tic-tac-toe/tic-tac-toe.component';
 import { Game2048Component } from './wrappers/game-2048/game-2048.component';
 import { HolidayCalendarComponent } from './wrappers/holiday-calendar/holiday-calendar.component';
+import { DevUtilitiesComponent } from './wrappers/dev-utilities/dev-utilities.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TicTacToeComponent,
     Game2048Component,
-    HolidayCalendarComponent
+    HolidayCalendarComponent,
+    DevUtilitiesComponent
   ],
   imports: [
     BrowserModule,

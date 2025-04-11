@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TicTacToeComponent } from './wrappers/tic-tac-toe/tic-tac-toe.component';
 import { Game2048Component } from './wrappers/game-2048/game-2048.component';
 import { HolidayCalendarComponent } from './wrappers/holiday-calendar/holiday-calendar.component';
+import { DevUtilitiesComponent } from './wrappers/dev-utilities/dev-utilities.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'holiday-calendar',
     component: HolidayCalendarComponent,
+  },
+  {
+    path: 'dev-utilities',
+    component: DevUtilitiesComponent,
   },
   {
     path: '**',
